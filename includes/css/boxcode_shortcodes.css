@@ -1,0 +1,255 @@
+/***********************SOME CLASSES THAT YOU CAN APPLY TO ALL ELEMENTS FOR DECIDE THE GRAPHIC*************************************/
+
+
+
+/* 1 - START BG*/
+.small_bg_white{ background-color: #ffffff; }
+.boxname_bg_greydark{ background-color: #495052;}
+.footer_bg_greydark2{ background-color: #404547;}
+.panel_bg_green{ background-color: #6fc191; }
+.panel_bg_blue{ background-color: #74cee4; }
+.panel_bg_orange{ background-color: #ec774b; }
+.panel_bg_yellow{ background-color: #edbf47; }
+.panel_bg_greendark{ background-color: #6ab78a; }
+.panel_bg_bluedark{ background-color: #6fc4d9; }
+.panel_bg_orangedark{ background-color: #df764e; }
+.panel_bg_yellowdark{ background-color: #e0b84e; }
+.topnav_bg_gradient{ 
+	background: #74cee4; /* Old browsers */
+	background: -moz-linear-gradient(left,  #74cee4 0%, #66ce9c 16%, #edbf47 32%, #ec774b 49%, #74cee4 65%, #66ce9c 83%, #edbf47 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#74cee4), color-stop(16%,#66ce9c), color-stop(32%,#edbf47), color-stop(49%,#ec774b), color-stop(65%,#74cee4), color-stop(83%,#66ce9c), color-stop(100%,#edbf47)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* IE10+ */
+	background: linear-gradient(to right,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74cee4', endColorstr='#edbf47',GradientType=1 ); /* IE6-9 */
+}
+/*END BG*/
+
+/* 3- START SHADOW:*/
+
+.panel_shadow.boxname_bg_greydark{ box-shadow: 0px 4px 0px 0px #404547; }
+.panel_shadow.footer_bg_greydark2{ box-shadow: 0px 4px 0px 0px #353b3d; }
+.panel_shadow.panel_bg_green{ box-shadow: 0px 4px 0px 0px #6ab78a; }
+.panel_shadow.panel_bg_blue{ box-shadow: 0px 4px 0px 0px #6fc4d9; }
+.panel_shadow.panel_bg_orange{ box-shadow: 0px 4px 0px 0px #df764e; }
+.panel_shadow.panel_bg_yellow{ box-shadow: 0px 4px 0px 0px #e0b84e; }
+.panel_shadow.panel_bg_greendark{ box-shadow: 0px 4px 0px 0px #65ae83; }
+.panel_shadow.panel_bg_bluedark{ box-shadow: 0px 4px 0px 0px #6dc0d5; }
+.panel_shadow.panel_bg_orangedark{ box-shadow: 0px 4px 0px 0px #d8734c; }
+.panel_shadow.panel_bg_yellowdark{ box-shadow: 0px 4px 0px 0px #d4ae49; }
+/*END SHADOW*/
+
+
+
+/* 4 -START panel_radius*/
+.panel_radius{ border-radius: 5px 5px 5px 5px;}
+.panel_radius_top{ border-radius: 5px 5px 0px 0px; }
+.panel_radius_bottom{ border-radius: 0px 0px 5px 5px; }
+.panel_radius_left{ border-radius: 5px 0px 0px 5px; }
+.panel_radius_right{ border-radius: 0px 5px 5px 0px; }
+.panel_radius_circle{ border-radius: 100%; }
+/*END panel_radius*/
+
+/*****************************************SOME SHORTCODES FOR CREATE YOUR PAGES********************************************/
+
+
+
+
+
+
+
+
+/* 8 - START NIKBTNICON:*/
+.social_btn_icon{ font-family: 'Montserrat', sans-serif; display: inline-block; text-align: center; cursor: pointer;}
+.social_btn_icon.subtitle{ font-family: 'Raleway', sans-serif !important; }
+.social_btn_icon > i{ display: inline-block; width: 20px; height: 20px; }
+.social_btn_icon > i:before{ margin: 0px; padding:0px; }
+.social_btn_icon.left{ float: left;}
+.social_btn_icon.right{ float: right;}
+/*size*/
+.social_btn_icon.extrasmall{ padding: 5px; font-size: 14px; }
+.social_btn_icon.small{ padding: 10px; font-size: 15px; }
+.social_btn_icon.medium{ padding: 15px; font-size: 17px; }
+.social_btn_icon.big{ padding: 20px; font-size: 19px; }
+/*extra big*/
+.social_btn_icon.extrabig > i{ display: inline-block; width: 40px; height: 40px; }
+.social_btn_icon.extrabig{ padding: 20px; font-size: 32px; }
+/*END NIKBTNICON*/
+
+
+
+
+
+
+
+
+
+
+/* 10 - START NIKDIVIDER: color, align, size*/
+.small_line_divider{ float: left; width: 100%;}
+.small_line_divider > span{ display: block; margin:auto; }
+/*align*/
+.small_line_divider.left > span{ float: left; }
+.small_line_divider.right > span{ float: right; }
+/*size*/
+.small_line_divider.big > span{ width: 80px; height: 5px; }
+.small_line_divider.small > span{ width: 30px; height: 3px; }
+/*END NIKDIVIDER*/
+
+
+
+
+
+
+/* 27 - START NIKSPACE:*/
+.leave_space3{ height: 3px; width: 100%; float: left; }
+.leave_space5{ height: 5px; width: 100%; float: left; }
+.leave_space10{ height: 10px; width: 100%; float: left; }
+.leave_space15{ height: 15px; width: 100%; float: left; }
+.leave_space20{ height: 20px; width: 100%; float: left; }
+.leave_space30{ height: 30px; width: 100%; float: left; }
+.leave_space40{ height: 40px; width: 100%; float: left; }
+.leave_space50{ height: 50px; width: 100%; float: left; }
+.leave_space60{ height: 60px; width: 100%; float: left; }
+.leave_space70{ height: 70px; width: 100%; float: left; }
+.leave_space80{ height: 80px; width: 100%; float: left; }
+.leave_space90{ height: 90px; width: 100%; float: left; }
+.leave_space100{ height: 100px; width: 100%; float: left; }
+/*END NIKSPACE*/
+
+
+/* 28 - START NICDARKMARGIN*/
+.leave_margin5{ margin: 5px; padding: 0px; display: inline-block; }
+.leave_margin10{ margin: 10px; padding: 0px; display: inline-block; }
+.leave_margin100{ margin: 10px 0px; padding: 0px; display: inline-block; }
+.leave_margin20{ margin: 20px; padding: 0px; display: inline-block; }
+.leave_margin020{ margin: 0px 20px; padding: 0px; display: inline-block; }
+.leave_margin010{ margin: 0px 10px; padding: 0px; display: inline-block; }
+.leave_margin1820{ margin: 18px 20px; padding: 0px; display: inline-block; }
+.leave_margin30{ margin: 30px; padding: 0px; display: inline-block; }
+.leave_margin40{ margin: 40px; padding: 0px; display: inline-block; }
+.leave_margin2040{ margin: 20px 40px; padding: 0px; display: inline-block; }
+/*left*/
+
+
+
+
+/**********************************SOME CLASSES FOR DIV ARCHIVE**********************************************************************/
+
+
+
+/* 33 - START NIKTEXTEVIDENCE*/
+.box_name{ float: left; width: 100%; position: relative; overflow: hidden; }
+/*align*/
+.box_name.center{ text-align: center; }
+.box_name.left{ text-align: left; }
+.box_name.right{ text-align: right; }
+/*overflow*/
+.box_name.overflow_scroll { overflow-x:auto !important; }
+/*END NIKTEXTEVIDENCE*/
+
+
+/* 34 - START NICDARKFOCUS*/
+.n_focus{ float: left; width: 100%; }
+.social_focus.center{ text-align: center; }
+.social_focus.right{ text-align: right; }
+/*END NICDARKFOCUS*/
+
+
+/* 35 - START NICDARKARCHIVE1*/
+.panel_archive1{ float: left; width: 100%; position: relative; overflow: hidden; }
+.panel_archive1.center{ text-align: center; }
+.panel_archive1 img{ width: 100%; height: auto; display: block;}
+/*END NICDARKARCHIVE1*/
+
+
+
+
+
+
+/***************************************************HOVER CLASSES EFFECT***********************************************************************/
+
+
+
+
+/* 39 - press*/
+.social_press{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.social_press:hover {
+  box-shadow: 0px 0px 0px 0px transparent !important;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+
+
+
+
+
+/* 43 - START NICDARKBGHOVER*/
+.panel_bg_grey_hover:hover{ background-color: #f9f9f9 !important; }
+.panel_bg_grey2_hover:hover{ background-color: #f1f1f1 !important; }
+.boxname_bg_greydark_hover:hover{ background-color: #495052 !important;}
+.footer_bg_greydark2_hover:hover{ background-color: #404547 !important;}
+.panel_bg_green_hover:hover{ background-color: #6fc191 !important; }
+.panel_bg_blue_hover:hover{ background-color: #74cee4 !important; }
+.panel_bg_violet_hover:hover { background-color: #c389ce !important; }
+.panel_bg_orange_hover:hover{ background-color: #ec774b !important; }
+.panel_bg_red_hover:hover{ background-color: #e16c6c !important; }
+.panel_bg_yellow_hover:hover{ background-color: #edbf47 !important; }
+.panel_bg_greendark_hover:hover{ background-color: #6ab78a !important; }
+.panel_bg_bluedark_hover:hover{ background-color: #6fc4d9 !important; }
+.panel_bg_violetdark_hover:hover{ background-color: #ac7ab5 !important; }
+.panel_bg_orangedark_hover:hover{ background-color: #df764e !important; }
+.panel_bg_reddark_hover:hover{ background-color: #c86969 !important; }
+.panel_bg_yellowdark_hover:hover{ background-color: #e0b84e !important; }
+
+
+
+/***************************************************JQUERY UI***********************************************************************/
+
+
+/* 44 - START NICDARKCALENDAR*/
+.ui-datepicker{ float: left; width: 300px; position: relative;}
+.grid .ui-datepicker{ float: left; width: 100%; }
+/*header*/
+.ui-datepicker-header{ background-color: #495052; float: left; width: 100%; border-radius: 5px 5px 0px 0px; }
+.ui-datepicker-title { float: left; width: 100%; padding: 15px 0px; text-align: center; font-size: 17px; line-height: 17px; font-family: 'Montserrat', sans-serif; color: #fff; text-transform: uppercase; }
+/*arrows*/
+.ui-datepicker-prev span, .ui-datepicker-next span{ display: none; }
+.ui-datepicker-prev{ position: absolute; left:0; top: 15px; margin-left: 20px; }
+.ui-datepicker-prev:before{ content: '\ea73' !important; font-family: 'fontello'; color: #fff; cursor: pointer; }
+.ui-datepicker-next{ position: absolute; right:0; top: 15px; margin-right: 20px; }
+.ui-datepicker-next:before{ content: '\ea75' !important; font-family: 'fontello'; color: #fff; cursor: pointer; }
+/*days*/
+.ui-datepicker-calendar{ float: left; width: 100%; border-collapse: collapse; text-align: center; border-radius: 5px; box-shadow: 0px 4px 0px 0px #f1f1f1; background-color: #f9f9f9; }
+.ui-datepicker-calendar thead{ background-color: #6fc191; color: #fff; font-size: 13px; line-height: 13px; font-family: 'Montserrat', sans-serif; font-weight: normal; text-transform: uppercase; }
+.ui-datepicker-calendar tbody{  }
+.ui-datepicker-calendar th{ font-weight: normal; padding: 15px 10px; }
+.ui-datepicker-calendar td{ font-weight: normal; box-shadow:inset -1px 1px 0px 0px #f1f1f1}
+.ui-datepicker-calendar td a{ font-size: 13px; padding: 10px 10px; line-height: 15px; color: #b7b7b7; display: block;}
+/*today*/
+.ui-datepicker-today a { color: #fff !important; background-color: #6fc191;}
+.ui-datepicker-other-month {  }
+/*hover*/
+.ui-datepicker-calendar .ui-state-hover{ color: #fff !important; background-color: #6fc191; }
+/*END NICDARKCALENDAR*/
+
+
+
+/* 45 - START NICDARKTOOLTIP*/
+.ui-tooltip{ font-family: 'Raleway', sans-serif; position: absolute; background: rgba(73,80,82,0.9); color: #fff; margin: 0px; padding: 0px; padding: 10px 20px; font-size: 15px; border-radius: 40px; outline: 0; -webkit-appearance: none; border: 0;}
+/*END NICDARKTOOLTIP*/
+
+
+
+/* 46 - START NICDARKSLIDERRANGE*/
+.ui-slider { position: relative; text-align: left; float: left; width: 100%; height: 5px; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2;width: 20px; height: 20px;cursor: pointer; -ms-touch-action: none; touch-action: none; background-color: #edbf47; border-radius: 100%;outline: 0;bottom: -8px;}
+.ui-slider .ui-slider-range {position: absolute;z-index: 1;font-size: .7em;display: block;border: 0;background-position: 0 0;background-color: #e0b84e;height: 5px; }
+/*END NICDARKSLIDERRANGE*/
